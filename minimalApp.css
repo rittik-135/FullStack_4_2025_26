@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #0d1c2e;
+  color: white;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: #1a3a5f;
+  color: white;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.jobs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.job-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 250px;
+}
+
+.salary {
+  color: blue;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #0d1c2e;
+  color: white;
+}
